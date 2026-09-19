@@ -263,6 +263,21 @@
       "category": "Security"
     },
     {
+      "name": "agent-harness-hardening",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agent-harness-hardening"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Security"
+    },
+    {
       "name": "twilio-developer-kit",
       "source": {
         "source": "local",

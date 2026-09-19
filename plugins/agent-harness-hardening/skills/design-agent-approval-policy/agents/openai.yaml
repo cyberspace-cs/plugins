@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Agent Approval Policy"
+  short_description: "Risk-tier tool gates and design the audit record"
+  default_prompt: "Classify this agent's tools into risk tiers, design the approval gates, and specify the audit record schema."

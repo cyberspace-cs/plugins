@@ -1,0 +1,49 @@
+{
+  "name": "agent-harness-hardening",
+  "version": "0.1.0",
+  "description": "Audit and harden the runtime permission boundary of an agent harness: execution sandbox, filesystem scope, network egress, credential reach, tool and MCP surface, and approval and audit coverage.",
+  "author": {
+    "name": "Agent Harness Hardening Maintainers"
+  },
+  "homepage": "https://github.com/openai/plugins",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "agent-security",
+    "sandbox",
+    "permission-boundary",
+    "least-privilege",
+    "tool-allowlist",
+    "mcp",
+    "egress",
+    "approval-policy",
+    "audit-logging",
+    "prompt-injection",
+    "blast-radius"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Harness Hardening",
+    "shortDescription": "Audit and tighten an agent harness permission boundary",
+    "longDescription": "Review the runtime permission boundary that an agent harness actually enforces — sandbox mode, filesystem scope, network egress, credential reach, tool and MCP server surface, and approval and audit coverage — then produce an evidence-backed hardening plan with exact config deltas and a verification command for each change.",
+    "developerName": "Agent Harness Hardening Maintainers",
+    "category": "Security",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/openai/plugins",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "Audit my agent harness configuration and show me where the blast radius is too wide.",
+      "Review the effective Codex config layers for sandbox and approval gaps.",
+      "Design an approval policy and audit log spec for this agent's tool set."
+    ],
+    "brandColor": "#B45309",
+    "composerIcon": "./assets/agent-harness-hardening.svg",
+    "logo": "./assets/agent-harness-hardening.svg",
+    "screenshots": []
+  }
+}

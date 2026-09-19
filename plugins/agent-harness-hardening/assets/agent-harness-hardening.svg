@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Harness Hardening</title>
+  <desc id="desc">A sealed permission boundary with a shielded, verified interior and untrusted nodes kept outside.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+  <rect x="52" y="54" width="152" height="148" rx="24" fill="#0B1220" stroke="#FBBF24" stroke-width="10"/>
+  <path d="M128 84l38 14v28c0 24-16 42-38 50-22-8-38-26-38-50v-28l38-14z" fill="url(#shield)"/>
+  <path d="M110 140l13 13 26-28" fill="none" stroke="#7C2D12" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="34" cy="96" r="9" fill="#94A3B8"/>
+  <circle cx="34" cy="160" r="9" fill="#94A3B8"/>
+  <circle cx="222" cy="128" r="9" fill="#94A3B8"/>
+</svg>

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent Harness Hardening"
+  short_description: "Audit and tighten an agent harness permission boundary"
+  icon_small: "./assets/agent-harness-hardening.svg"
+  icon_large: "./assets/agent-harness-hardening.svg"
+  brand_color: "#B45309"
+  default_prompt: "Audit my agent harness configuration against the permission boundary checklist and produce a hardening plan with exact config deltas."

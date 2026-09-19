@@ -1,0 +1,4 @@
+interface:
+  display_name: "Harden Agent Harness"
+  short_description: "Audit the agent harness permission boundary"
+  default_prompt: "Audit the effective harness config layers and produce a hardening plan with exact config deltas and a verification command for each."
